@@ -28,7 +28,7 @@ export default function ProfileCard(){
           className='relative rounded-2xl overflow-hidden border border-black/10 bg-white shadow-xl transition-transform duration-200 dark:border-white/10 dark:bg-white/5'
           style={{ transformStyle: 'preserve-3d' }}
         >
-          <img src='/profile.jpg' alt='Profile' className='w-full h-72 object-cover' style={{ transform: 'translateZ(40px)' }} />
+          <img src='/profile.png' alt='Profile' className='w-full h-72 object-cover' style={{ transform: 'translateZ(40px)' }} />
           <div className='absolute inset-0 pointer-events-none' style={{ transform: 'translateZ(60px)' }}>
             <div className='absolute inset-0 bg-gradient-to-tr from-fuchsia-500/20 to-cyan-500/20 mix-blend-screen'></div>
           </div>

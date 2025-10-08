@@ -1,6 +1,6 @@
 
 import React from 'react'
-import { Globe, Zap, Code2, TerminalSquare } from 'lucide-react'
+import { Globe, Zap, Code2, TerminalSquare, Server, Brain, Database } from 'lucide-react'
 import SectionTitle from './SectionTitle'
 import GlassCard from './GlassCard'
 import NeonPill from './NeonPill'
@@ -17,15 +17,26 @@ export default function About() {
         <SectionTitle icon={<TerminalSquare className='h-4 w-4' />} title='About Me' subtitle='Profile' />
         <div className='grid items-stretch gap-6 md:grid-cols-2'>
           <GlassCard>
-            <p className='text-white/80 leading-relaxed'>
-              I’m an AI/ML engineer and automation specialist. I build full‑stack apps, agents, and data systems that look sci‑fi yet ship like clockwork.
-              I love neon gradients, clean APIs, and shaving seconds off user journeys. 
-              I enjoy solving problems with clean code, modern frameworks, and creative design. 
+
+            <p className="text-gray-300 leading-relaxed">
+              I’m a Software Development Engineer with 7+ years of experience designing, building, and maintaining
+              distributed systems and cloud-native applications. Proficient in C#/.NET, PowerShell scripting, and
+              Azure platform services including Azure SQL, Service Fabric, and Data Factory.
             </p>
+
+            <p className="text-gray-400 mt-4 leading-relaxed">
+              I have a strong foundation in data structures, algorithms, and CI/CD automation, with hands-on experience
+              across the full SDLC in Agile/SCRUM environments. Focused on delivering reliable, scalable backend systems
+              and automating deployment pipelines for efficient delivery.
+            </p>
+
             <div className='mt-6 flex flex-wrap gap-3'>
               <NeonPill><Zap className='h-4 w-4' /> FastAPI • Flask</NeonPill>
-              <NeonPill><Code2 className='h-4 w-4' /> React • TS • Tailwind</NeonPill>
+              <NeonPill><Code2 className='h-4 w-4' /> React • TypeScript • Tailwind</NeonPill>
+              <NeonPill><Server className='h-4 w-4' /> .NET • Azure • Terraform</NeonPill>
+              <NeonPill><Brain className='h-4 w-4' /> AI • ML • NLP</NeonPill>
               <NeonPill><Globe className='h-4 w-4' /> RAG • LangChain • n8n</NeonPill>
+              <NeonPill><Database className='h-4 w-4' /> SQL • PowerBI • MongoDB</NeonPill>
             </div>
           </GlassCard>
           <GlassCard>
@@ -33,18 +44,27 @@ export default function About() {
               <div className='absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,rgba(236,72,153,0.35),transparent_45%),radial-gradient(ellipse_at_bottom_right,rgba(14,165,233,0.35),transparent_45%)]' />
               <div className='absolute inset-0 grid place-items-center text-center'>
                 <div>
-                  <div className='text-5xl font-black text-white tracking-tight'>6<span className='text-fuchsia-300'>+</span></div>
+                  <div className='text-5xl font-black text-white tracking-tight'>10<span className='text-fuchsia-300'>+</span></div>
                   <div className='mt-1 text-sm uppercase tracking-widest text-white/70'>Years Experience</div>
                 </div>
               </div>
             </motion.div>
-            <p className='mt-4 text-white/80'>
-              Previously at EXL, BlackRock, TCS, and Polaris I/O. I thrive in ambiguous problem spaces and love partnering with product‑minded folks.
-              {/* I build responsive, high-performance web applications using modern frameworks and technologies (React, Node.js, Next.js, .NET, etc.). From front-end interfaces to back-end APIs and databases, I deliver secure and scalable solutions.
-              I design and deploy AI-powered applications, including predictive analytics, natural language processing (NLP), computer vision, and recommendation systems — helping businesses leverage data for smarter decisions.
-              I create intuitive, cross-platform mobile applications (iOS & Android) with seamless user experiences. Whether it’s consumer-facing apps or enterprise-grade solutions, I focus on performance, security, and usability.  
-              I architect scalable, reliable, and maintainable systems tailored to business needs. From cloud-native microservices to enterprise-level solutions, I ensure long-term stability and growth.
-              I help organizations define technology strategies, optimize development processes, and implement best practices such as Agile, CI/CD, and TDD. */}
+            <h3 className="text-xl font-semibold text-white mb-1">Data & ML Engineer | Full-Stack | Cloud | AI Systems</h3>
+            <p className="text-sm text-gray-400 mb-4">2016 – Present</p>
+            <p className="text-gray-300 mb-4">
+              I build scalable apps and automation pipelines using <span className="text-blue-400">.NET Core</span>, <span className="text-teal-400">React</span>, and <span className="text-yellow-400">Python</span> — bridging clean code with cloud efficiency.
+            </p>
+
+            <ul className="grid sm:grid-cols-2 gap-2 text-gray-400 mb-4">
+              <li>🖥️ <span className="text-white">Backend:</span> ASP.NET Core, FastAPI, Flask</li>
+              <li>🎨 <span className="text-white">Frontend:</span> React, TypeScript, Tailwind</li>
+              <li>☁️ <span className="text-white">Cloud:</span> Azure, AWS, Terraform, Docker</li>
+              <li>🧠 <span className="text-white">Data:</span> SQL, MongoDB, PowerBI, KQL</li>
+              <li>⚙️ <span className="text-white">DevOps:</span> Azure DevOps, GitHub Actions</li>
+            </ul>
+
+            <p className="text-sm text-gray-400 italic">
+              🚀 Cut downtime 60% through Azure microservices  •  ⚙️ CI/CD reduced deploys from days → minutes  •  📊 Built live dashboards with React + PowerBI
             </p>
           </GlassCard>
         </div>

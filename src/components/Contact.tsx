@@ -24,11 +24,11 @@ export default function Contact() {
           </GlassCard>
           <GlassCard>
             <div className='space-y-3 text-white/80'>
-              <p>Prefer email? <a className='text-cyan-300 hover:text-cyan-200' href='mailto:paliyanrajat@gmail.com'>paliyanrajat@gmail.com</a></p>
-              <p>Across timezones — primarily EST friendly.</p>
+              <p>email: <a className='text-cyan-300 hover:text-cyan-200' href='mailto:paliyanrajat@gmail.com'>paliyanrajat@gmail.com</a></p>
+              <p>Working from Singapore (GMT+8) — flexible and EST-friendly.</p>
               <div className='flex gap-4 pt-2 text-white/80'>
                 <a href='https://github.com/genmaster465' target='_blank' rel='noreferrer' className='hover:text-white'>GitHub</a>
-                <a href='https://linkedin.com/' target='_blank' rel='noreferrer' className='hover:text-white'>LinkedIn</a>
+                {/* <a href='https://linkedin.com/' target='_blank' rel='noreferrer' className='hover:text-white'>LinkedIn</a> */}
                 <a href='mailto:paliyanrajat@gmail.com' className='hover:text-white'>Email</a>
               </div>
             </div>
