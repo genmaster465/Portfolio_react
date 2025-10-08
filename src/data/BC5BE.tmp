@@ -1,0 +1,10 @@
+
+export const skills = [
+  { name: 'React', level: 90 },
+  { name: 'TypeScript', level: 85 },
+  { name: 'Python', level: 92 },
+  { name: 'FastAPI', level: 88 },
+  { name: 'MongoDB', level: 80 },
+  { name: 'TailwindCSS', level: 95 },
+  { name: 'LangChain/RAG', level: 84 },
+] as const
