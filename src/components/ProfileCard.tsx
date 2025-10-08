@@ -34,7 +34,7 @@ export default function ProfileCard(){
           </div>
           <div className='absolute bottom-0 left-0 right-0 p-4 backdrop-blur-md bg-white/40 text-black dark:bg-black/40 dark:text-white' style={{ transform: 'translateZ(50px)' }}>
             <div className='text-lg font-semibold'>Kevin Toh</div>
-            <div className='text-sm opacity-80'>AI/ML Engineer • Automation Specialist</div>
+            <div className='text-sm opacity-80'>Senior Software, Data & ML Engineer | Full-Stack | Cloud | AI Systems</div>
           </div>
         </div>
       </div>
