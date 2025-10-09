@@ -15,6 +15,13 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    title: 'Brain Tumor Classification',
+    blurb: 'A deep learning-based system designed for the classification of brain tumors using MRI images. The project involved fine-tuning the model with TensorFlow and enhancing accuracy with image processing and data augmentation, achieving 89.54% accuracy',
+    img: 'project_img/brain_tumor.png',
+    tags: ['OpenCV', 'Machine Learning', 'Tensorflow', 'Image Processing', 'Data Augmentation'],
+    link: 'https://github.com/genmaster465/brain-tumor-classification',
+  },
+  {
     title: 'Sams Family Dental',
     blurb: 'I’m working part-time on building a website focused on medical technology, as I’m deeply interested in health. The project is built with React, MySQL, and Tailwind CSS, and it also requires some medical knowledge.',
     tags: ['TypeScript', 'React', 'Mysql', 'Tailwind css'],
@@ -30,10 +37,17 @@ export const projects: Project[] = [
   },
   {
     title: 'ML Signals + Risk-Aware Execution',
-    blurb: 'Problem: Noisy intraday moves led to inconsistent discretionary trades and missed risk limits.<br>Stable signal quality with improving validation accuracy ',
+    blurb: 'Problem: Noisy intraday moves led to inconsistent discretionary trades and missed risk limits. Stable signal quality with improving validation accuracy ',
     img: 'project_img/Backtest_Equity.png',
     tags: ['PyTorch', 'Slack/Email alerts', 'IBKR API', 'TensorFlow'],
     link: '#',
+  },
+  {
+    title: 'Large Language Model Benchmarking',
+    blurb: 'Led a study benchmarking LLMs like Mistral, Falcon, and LLama2 for replicating developer feedback. Analyzed 3,000+ feedback instances scraped from Stack Exchange and Reddit using prompt engineering and evaluated model performance with Cosine Similarity and ROUGE-L Score',
+    img: 'project_img/llm.png',
+    tags: ['Mistral', 'Llama 2', 'Falcon', 'Scraping', 'NLP', 'Prompt Engineering'],
+    link: 'https://github.com/genmaster465/Benchmarking-LLMs',
   },
   {
     title: 'Real-Time Marketing Analytics Automation',
@@ -41,5 +55,12 @@ export const projects: Project[] = [
     img: 'project_img/kajavi.png',
     tags: ['kajavi', 'Gmail/Outlook', 'n8n'],
     link: '#',
+  },
+  {
+    title: 'Board Sequence Game',
+    blurb: 'A multiplayer game of Sequence for four players (2 in each team). Player 1 and 3 will be team 1 and player 2 and 4 will be team 2 by default.',
+    img: 'project_img/board.jpg',
+    tags: ['HTML/CSS', 'JavaScript', 'Node', 'WebSocket', 'Game'],
+    link: 'https://github.com/genmaster465/Board-Sequence-Game',
   },
 ]
