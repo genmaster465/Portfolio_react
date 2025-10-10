@@ -21,7 +21,7 @@ export default function Hero() {
   return (
     <section className='relative min-h-[86vh] grid place-items-center overflow-hidden'>
       <motion.div variants={shimmer} initial='initial' animate='animate' className='pointer-events-none absolute -inset-40 -z-20 bg-[length:200%_200%] bg-gradient-to-r from-fuchsia-700/30 via-cyan-700/30 to-indigo-700/30 blur-3xl' />
-      <motion.div className='pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full bg-gradient-to-br from-fuchsia-500/60 to-rose-500/30 blur-2xl' animate={{ rotate: 360 }} transition={{ repeat: Infinity, duration: 40, ease: 'linear' }} />
+      {/* <motion.div className='pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full bg-gradient-to-br from-fuchsia-500/60 to-rose-500/30 blur-2xl' animate={{ rotate: 360 }} transition={{ repeat: Infinity, duration: 40, ease: 'linear' }} /> */}
       <motion.div className='pointer-events-none absolute -bottom-24 -left-24 h-80 w-80 rounded-full bg-gradient-to-br from-cyan-500/60 to-blue-500/30 blur-2xl' animate={{ rotate: -360 }} transition={{ repeat: Infinity, duration: 50, ease: 'linear' }} />
 
       <div className='container mx-auto px-6 py-20'>
@@ -37,7 +37,7 @@ export default function Hero() {
           <motion.p {...fadeUp(0.15)} className='mt-5 text-lg leading-relaxed text-white/80 md:text-xl'>
             Singaporean Chinese 🇸🇬,
           </motion.p>
-
+          <div className='text-sm opacity-80'>Senior Software, Data & ML Engineer | Full-Stack | Cloud | AI Systems</div>
           <motion.div {...fadeUp(0.25)} className='mt-8 flex items-center justify-center gap-3'>
             <a href='#projects' className='group inline-flex items-center gap-2 rounded-xl border border-fuchsia-400/40 bg-fuchsia-500/20 px-5 py-3 text-fuchsia-100 hover:bg-fuchsia-500/30'>
               <Sparkles className='h-5 w-5 transition group-hover:rotate-12' />
@@ -55,7 +55,7 @@ export default function Hero() {
             <a href='#contact' className='hover:text-white'><Mail /></a>
           </motion.div> */}
         </div>
-      </div>
+      </div> 
       
       <Starfield density={160} />
     </section>
