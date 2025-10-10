@@ -34,10 +34,13 @@ export default function Hero() {
             Kevin Toh 
             {/* Wei Ming(卓伟明) */}
           </motion.h1>
-          <motion.p {...fadeUp(0.15)} className='mt-5 text-lg leading-relaxed text-white/80 md:text-xl'>
+          {/* <motion.p {...fadeUp(0.15)} className='mt-5 text-lg leading-relaxed text-white/80 md:text-xl'>
             Singaporean Chinese 🇸🇬,
+          </motion.p> */}
+          <motion.p {...fadeUp(0.15)} className='mt-5 text-lg leading-relaxed text-white/80 md:text-xl'>
+            Senior Software, Data & ML Engineer | Full-Stack | Cloud | AI Systems
           </motion.p>
-          <div className='text-sm opacity-80'>Senior Software, Data & ML Engineer | Full-Stack | Cloud | AI Systems</div>
+          
           <motion.div {...fadeUp(0.25)} className='mt-8 flex items-center justify-center gap-3'>
             <a href='#projects' className='group inline-flex items-center gap-2 rounded-xl border border-fuchsia-400/40 bg-fuchsia-500/20 px-5 py-3 text-fuchsia-100 hover:bg-fuchsia-500/30'>
               <Sparkles className='h-5 w-5 transition group-hover:rotate-12' />

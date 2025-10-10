@@ -16,9 +16,9 @@ export default function Navbar() {
           <Link to="projects" smooth={true} duration={800} offset={-50} className="cursor-pointer hover:text-blue-400">
             Projects
           </Link>
-          <Link to="skills" smooth={true} duration={800} offset={-50} className="cursor-pointer hover:text-blue-400">
+          {/* <Link to="skills" smooth={true} duration={800} offset={-50} className="cursor-pointer hover:text-blue-400">
             Skills
-          </Link>
+          </Link> */}
           <Link to="about" smooth={true} duration={800} offset={-50} className="cursor-pointer hover:text-blue-400">
             About
           </Link>
