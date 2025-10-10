@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import { Github, Linkedin, Mail, Rocket, Sparkles } from 'lucide-react'
 import NeonPill from './NeonPill'
 import Starfield from './Starfield'
+import ProfileCard from './ProfileCard'
 
 const shimmer = {
   initial: { backgroundPosition: '0% 50%' },
@@ -30,7 +31,8 @@ export default function Hero() {
             <span>AI/ML Engineer • Automation Specialist</span>
           </NeonPill>
           <motion.h1 {...fadeUp(0.05)} className='bg-gradient-to-r from-fuchsia-300 via-cyan-200 to-indigo-300 bg-clip-text text-5xl font-black tracking-tight text-transparent md:text-7xl'>
-            Kevin <br/> Toh Wei Ming(卓伟明)
+            Kevin Toh 
+            {/* Wei Ming(卓伟明) */}
           </motion.h1>
           <motion.p {...fadeUp(0.15)} className='mt-5 text-lg leading-relaxed text-white/80 md:text-xl'>
             Singaporean Chinese 🇸🇬,
@@ -46,15 +48,15 @@ export default function Hero() {
               <span>Contact Me</span>
             </a>
           </motion.div>
-
-          <motion.div {...fadeUp(0.35)} className='mt-8 flex items-center justify-center gap-4 text-white/80'>
+          
+          {/* <motion.div {...fadeUp(0.35)} className='mt-8 flex items-center justify-center gap-4 text-white/80'>
             <a href='https://github.com/genmaster465' target='_blank' rel='noreferrer' className='hover:text-white'><Github /></a>
             <a href='https://linkedin.com/' target='_blank' rel='noreferrer' className='hover:text-white'><Linkedin /></a>
-            <a href='mt-8 flex items-center justify-center gap-4 text-white/80' className='hover:text-white'><Mail /></a>
-          </motion.div>
+            <a href='#contact' className='hover:text-white'><Mail /></a>
+          </motion.div> */}
         </div>
       </div>
-
+      
       <Starfield density={160} />
     </section>
   )
