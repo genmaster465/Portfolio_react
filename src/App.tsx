@@ -19,7 +19,7 @@ export default function App(){
       <Navbar />
       <section id='home' className='relative'></section>
       {/* <main className='container mx-auto px-6 py-16'>
-        <h1 className='text-5xl font-black bg-gradient-to-r from-fuchsia-600 via-cyan-600 to-indigo-600 bg-clip-text text-transparent dark:from-fuchsia-300 dark:via-cyan-200 dark:to-indigo-300'>Hi,  I'm Kevin.</h1>
+        <h1 className='text-5xl font-black bg-gradient-to-r from-fuchsia-600 via-cyan-600 to-indigo-600 bg-clip-text text-transparent dark:from-fuchsia-300 dark:via-cyan-200 dark:to-indigo-300'>Hi,  I'm Tom.</h1>
         <p className='mt-4 text-black/70 dark:text-white/70'>Senior Software, Data & ML Engineer | Full-Stack | Cloud | AI Systems
         </p>
         <ProfileCard />

@@ -31,7 +31,7 @@ export default function Hero() {
             <span>AI/ML Engineer • Automation Specialist</span>
           </NeonPill>
           <motion.h1 {...fadeUp(0.05)} className='bg-gradient-to-r from-fuchsia-300 via-cyan-200 to-indigo-300 bg-clip-text text-5xl font-black tracking-tight text-transparent md:text-7xl'>
-            Kevin Toh 
+            Tom Toh 
             {/* Wei Ming(卓伟明) */}
           </motion.h1>
           {/* <motion.p {...fadeUp(0.15)} className='mt-5 text-lg leading-relaxed text-white/80 md:text-xl'>
